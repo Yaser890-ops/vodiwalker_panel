@@ -1,0 +1,8 @@
+{
+  "name": "vodiwalker-panel-cloudflare",
+  "private": true,
+  "scripts": {
+    "deploy": "uv run pywrangler deploy",
+    "dev": "uv run pywrangler dev"
+  }
+}

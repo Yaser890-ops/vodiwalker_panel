@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "vodiwalker-panel",
+  "main": "src/main.py",
+  "compatibility_date": "2026-09-18",
+  "compatibility_flags": [
+    "python_workers"
+  ],
+  "workers_dev": true,
+  "vars": {
+    "CLOUDFLARE_WORKERS": "1"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "python_modules": {
+    "exclude": [
+      "**/*.pyc",
+      "**/__pycache__"
+    ]
+  }
+}

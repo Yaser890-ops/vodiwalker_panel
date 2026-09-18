@@ -1,0 +1,16 @@
+[project]
+name = "vodiwalker-panel"
+version = "27.3.0"
+description = "VodiWalker FastAPI panel adapted for Cloudflare Python Workers"
+requires-python = ">=3.13"
+dependencies = [
+  "fastapi",
+  "httpx",
+  "cryptography"
+]
+
+[dependency-groups]
+dev = [
+  "workers-py",
+  "workers-runtime-sdk"
+]
